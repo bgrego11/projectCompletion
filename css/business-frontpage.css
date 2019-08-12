@@ -8,5 +8,5 @@ body {
 }
 
 header {
-  background-image: url("./newbackground.jpg")
+  background-image: url("http://localhost:8080/newbackground.jpg") !important;
 }
