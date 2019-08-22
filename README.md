@@ -58,3 +58,25 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/gh-pages/LICENSE) license.
+
+
+REQUIREMENTS
+
+Minor plumbing, electrical, Painting, minor carpentry, tile, home maintenance, Monthly Maintenance Contract
+
+
+Request for estimate
+goes to email on card buttons
+
+#contact 
+7043023684
+kholmes169@gmail.com
+
+# experience and background underneath cards
+electrical, licensed contractor for over 15years in New York City, Real estate investor, real estate agent
+electrician for the city of new york for 25 years, author, started out in vocational school and took up electrical trade 
+
+Holmes Home Improvement
+
+George westinghouse vocational high school 1985
+
