@@ -3,7 +3,7 @@
     "name": "startbootstrap-business-frontpage",
     "version": "4.2.1",
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon server.js"
     },
     "description": "A simple business HTML landing page built with Bootstrap",
     "keywords": [
@@ -22,7 +22,7 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Steve Snyder (http://searchforsteve.com/)"
     ],
     "repository": {
         "type": "git",
@@ -32,7 +32,8 @@
         "bootstrap": "4.3.1",
         "express": "^4.17.1",
         "gulp": "4.0.2",
-        "jquery": "3.4.1"
+        "jquery": "3.4.1",
+        "nodemon": "^1.19.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
