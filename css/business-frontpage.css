@@ -8,5 +8,14 @@ body {
 }
 
 header {
-  background-image: url("./newbackground.jpg") !important;
+  background-image: url("./newbackground-crop.jpg") !important;
+}
+
+.jumbotron {
+  background-image: url("./newbackground-crop.jpg");
+  color: #fff
+}
+
+.contact-card {
+  background-color: #333 !important
 }
