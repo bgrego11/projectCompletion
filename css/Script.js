@@ -1,7 +1,4 @@
-
-
-
-$('#cForm').on("click", function(e){
+$('#cForm').on("click", function(e) {
     e.preventDefault
     fname = $('#fname').val()
     lname = $('#lname').val()
@@ -16,19 +13,17 @@ $('#cForm').on("click", function(e){
         phone: phone,
         email: email
     }
-console.log(msg.fname)
+    console.log(msg.fname)
 
     fetch('https://ptemailserver.herokuapp.com/pcpmail', {
-   method: 'post',
-   headers: {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json'
-  },
-   body: JSON.stringify(msg)
- }).then(function(response) {
-   return response.json();
- })
+        method: 'post',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(msg)
+    }).then(function(response) {
+        return response.json();
+    })
 
 })
-
-
