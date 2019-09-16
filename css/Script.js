@@ -28,7 +28,15 @@ console.log(msg.fname)
  }).then(function(response) {
    return response.json();
  })
+    $('#fname').val('')
+    $('#lname').val('')
+    $('#service').val('')
+    $('#phone').val('')
+    $('#email').val('')
 
+    $('#exampleModal').modal('hide')
+    $('#cForm').html('Sent!')
+    $('#cForm').attr("disabled", true);
 })
 
 
