@@ -13,7 +13,7 @@ $('#cForm').on("click", function(e) {
         phone: phone,
         email: email
     }
-    console.log(msg.fname)
+    console.log(msg)
 
     fetch('https://ptemailserver.herokuapp.com/pcpmail', {
    method: 'post',
