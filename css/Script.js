@@ -1,7 +1,4 @@
-
-
-
-$('#cForm').on("click", function(e){
+$('#cForm').on("click", function(e) {
     e.preventDefault
     fname = $('#fname').val()
     lname = $('#lname').val()
@@ -16,7 +13,7 @@ $('#cForm').on("click", function(e){
         phone: phone,
         email: email
     }
-console.log(msg.fname)
+    console.log(msg.fname)
 
     fetch('https://ptemailserver.herokuapp.com/pcpmail', {
    method: 'post',
@@ -38,5 +35,4 @@ console.log(msg.fname)
     $('#cForm').html('Sent!')
     $('#cForm').attr("disabled", true);
 })
-
 
