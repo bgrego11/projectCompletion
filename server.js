@@ -4,7 +4,7 @@ var app = express()
 var port = process.env.PORT || 8080;
 
 // viewed at http://localhost:8080
-app.use(express.static('css'))
+app.use(express.static(__dirname + 'css'))
 
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
@@ -22,7 +22,7 @@ app.get('/services', function(req, res) {
     res.sendFile(path.join(__dirname + "/services.html"));
 });
 
-app.get('*', function(req, res){
+app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname + "/errorpage.html"));
 })
 
