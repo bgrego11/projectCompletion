@@ -3,7 +3,7 @@
     "name": "startbootstrap-business-frontpage",
     "version": "4.2.1",
     "scripts": {
-        "start": "nodemon server.js"
+        "start": "node server.js"
     },
     "description": "A simple business HTML landing page built with Bootstrap",
     "keywords": [
